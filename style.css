@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    padding: 20px 30px;
+    justify-content: space-between;
+
+}
+.navbar ul li a{
+    justify-content: space-between;
+}
+body{
+    background: linear-gradient(#635c5c,#413e3e),url(images/image\ 1.jpg);
+    background-size: cover;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="content">
+            <div class="form-container">
+                
+        <h1> <span>STUDENT</span> REGISTRATION</h1>
+    <form action="/submit_registration" method="POST" enctype="multipart/form-data">
+        <label for="student_number">Student Number:</label><br>
+        <input type="text" id="student_number" name="student_number" required><br>
+        
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br>
+        
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br>
+        
+        <label for="date_of_birth">Date of Birth:</label><br>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br>
+        
+        <label for="faculty">Faculty:</label><br>
+        <input type="text" id="faculty" name="faculty" required><br>
+        
+        <label for="department">Department:</label><br>
+        <input type="text" id="department" name="department" required><br>
+        
+        <label for="telephone_number">Telephone Number:</label><br>
+        <input type="tel" id="telephone_number" name="telephone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+        
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+        
+        <label for="picture">Upload Picture:</label><br>
+        <input type="file" id="picture" name="picture" accept="image/*" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    </div>    
+    
+</body>
+</html>

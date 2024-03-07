@@ -1,0 +1,122 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.container .content h1{
+    font-size: 30px;
+    color: black;
+}
+.container .content h1 span{
+    background-color: rgb(12, 12, 73);
+    color: white;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container.content p{
+    font-size: 2px;
+    margin-bottom: 20px;
+} 
+.container.content .button{
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 20px;
+    background:black ;
+    color: white;
+    margin: 0 5px;
+    text-transform: capitalize;
+
+}
+.container.content .button:hover{
+    background: rgb(18, 18, 61);
+}
+.content.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: wheat;
+}
+.content form{
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    width: 500px;
+
+}
+.content form input{
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 2px;
+    justify-content: center;
+
+}
+.content form button{
+    background:rgb(26, 26, 74);
+    color:white;
+    font-size: 20px;
+    width: 100px;
+    padding: 2px;
+    box-shadow: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.content form button:hover{
+    background: rgb(20, 20, 73);
+    color: white;
+}
+.content form select{
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 2px;
+    justify-items: center;
+
+}
+
+
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 5px 10px rgb(12, 12, 73);
+    background: white;
+    text-align: center;
+    width: 500px;
+}
+.form-container form input,
+    .form-container form select{
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 8px 0;
+    background:white;
+    border-radius: 5px;
+
+}
+.form-container button :hover{
+    background: blue;
+    color: white;
+}
